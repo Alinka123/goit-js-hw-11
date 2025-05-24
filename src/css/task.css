@@ -30,7 +30,7 @@
 .form button:hover {
     background-color: #0056b3;
 }
-/* Галерея як список */
+
 ul.gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -41,7 +41,7 @@ ul.gallery {
     max-width: 1440px;
 }
 
-/* Одна картка */
+
 .gallery-item {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -56,7 +56,7 @@ ul.gallery {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Зображення */
+
 .gallery-item img {
     display: block;
     width: 100%;
@@ -64,7 +64,7 @@ ul.gallery {
     object-fit: cover;
 }
 
-/* Інформація */
+
 .image-info {
     display: flex;
     justify-content: space-around;
